@@ -1,0 +1,185 @@
+/* Google Fonts */
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "SF Pro Display", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+
+.main-bg{
+    background-color: #ab696b;
+    overflow: hidden;
+    
+    height: 100vh;
+    position: relative;
+}
+.prev{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.blue-bg{
+    
+    
+    
+    width: 96.525rem;
+    height: 130vh;
+    margin-top: -12rem;
+    margin-left: 5rem;
+    background-color: #001642b2;
+    border-radius: 25rem 0 0 25rem;
+   
+}
+.contents-blue{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  align-items: center;
+}
+.prvbtn{
+
+    background: transparent;
+    display: flex;
+}
+
+.leftside{
+
+    display: flex; 
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 8rem;
+    
+    
+    
+}
+.startnow{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+    
+    color: #FFF;
+    
+    font-family: Inter;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+/*input boxes*/
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }     
+     
+.input-box{
+    
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+    flex-direction: column;
+    border-radius: 10rem;
+    background:transparent;
+    width: 35rem;
+    height:3rem;
+    color: #FFF;
+    padding-left: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    text-align: start;
+    font-family: Inter;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;    
+    flex-shrink: 0;
+}
+.rightside{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+}
+.pgno{
+    display: flex;
+    flex-direction: column;
+    color: #F6B0B0;
+    
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 36rem;
+    margin-top: 9rem;
+    
+    
+}
+.employer{
+    display: flex;
+    flex-direction: column;
+    
+    flex-shrink: 0;
+    color: #FFF;
+    margin-top: 8rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    margin-left: 10rem;
+    font-weight: 100;
+
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    flex-shrink: 0;
+    color: #FFF;
+    width: 30rem;
+    font-family: "Inter-ExtraLight", Helvetica;
+    text-align: right;
+    font-style: italic;
+    font-size: 3rem;
+
+    margin-top:3rem;
+    margin-left: 5rem;
+}
+
+.next-btn{
+    color: #AB696B;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1.5em;
+     font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 12rem;
+    height: 4rem;
+    flex-shrink: 0;
+    border-radius: 4rem;
+    border: 5px solid #AB696B;
+    margin-left: 25rem;
+    margin-top: 3.2rem;
+    background: #332F4F;    
+  
+}

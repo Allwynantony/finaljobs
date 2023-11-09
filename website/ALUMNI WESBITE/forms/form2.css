@@ -1,0 +1,305 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "SF Pro Display", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  /* width: 100%; */
+}
+
+/*Scrool Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f6B0B0;; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover 
+  ::-webkit-scrollbar-thumb:hover {
+    background:#f6B0B0; 
+  }*/
+
+
+.main-bg{
+    background-color: #ab696b;
+    overflow: hidden;
+    
+    height: 100vh;
+    position: relative;
+}
+.prev{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.blue-bg{
+    
+    
+    
+    width: 96.525rem;
+    height: 130vh;
+    margin-top: -12rem;
+    margin-left: 5rem;
+    background-color: #001642b2;
+    border-radius: 25rem 0 0 25rem;
+   
+}
+.contents-blue{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  align-items: center;
+}
+.prvbtn{
+
+    background: transparent;
+    display: flex;
+}
+
+.leftside{
+
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 5rem;
+    margin-top:3rem ;
+    
+    
+    
+}
+.heading-description{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+
+    color: #FFF;
+    
+    font-family: Inter;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7rem;
+}
+/*input boxes*/
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  } 
+  
+.outercontainer{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 24rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    border: 1px solid #FFF;
+    margin-left: 5.5rem;
+    background: #332F4F;
+    margin-top: 2rem;
+}
+.internalcontent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.3rem;
+    margin-left: 3rem;
+}
+.internalcontent h1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    color: white;
+
+}
+
+.listsvg{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    color: #FFF;
+    
+
+    
+}
+.outercontainer hr{
+    display: flex;
+    flex-direction:column;
+    width: 35rem;
+    margin-top: 0.5rem;
+    align-self: center;
+}
+     
+textarea{
+    
+    display: flex;
+    background-color: transparent;
+    
+    margin-left: 1rem;
+    flex-direction: column;
+    
+    width: 38rem;
+    height:19rem;
+    color: #FFF;
+ 
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 300;
+    outline: none;    
+    flex-shrink: 0;
+    outline: none;
+    border: none;
+    resize:none;
+    
+    scroll-behavior: smooth;
+    
+    
+
+}
+
+
+
+.leftside p{
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top:2rem;
+    margin-left: 5rem;
+    
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.add-skill1{
+    border-radius: 4rem;
+    background: #AB696B;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: #332F4F;
+    width: 8.75rem;
+    height: 2.75rem;
+    color: #AB696B;
+    margin-left: 2rem;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.588px;    
+    flex-shrink: 0;
+    
+    
+      
+  
+}
+    
+    
+
+
+.rightside{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+}
+.pgno{
+    display: flex;
+    flex-direction: column;
+    color: #F6B0B0;
+    
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30rem;
+    margin-top: 6rem;
+    
+    
+}
+.employer{
+    display: flex;
+    flex-direction: column;
+    
+    flex-shrink: 0;
+    color: #FFF;
+    margin-top: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    margin-left: 6rem;
+    margin-top: 6rem;
+    font-weight: 100;
+
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    flex-shrink: 0;
+    color: #FFF;
+    width: 30rem;
+    font-family: "Inter-ExtraLight", Helvetica;
+    text-align: right;
+    font-style: italic;
+    font-size: 2.5rem;
+
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.next-btn{
+    color: #AB696B;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1.5em;
+     font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 12rem;
+    height: 4rem;
+    flex-shrink: 0;
+    border-radius: 4rem;
+    border: 5px solid #AB696B;
+    margin-left: 20rem;
+    margin-top: 3rem;
+    background: #332F4F;    
+  
+}

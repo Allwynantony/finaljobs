@@ -1,0 +1,258 @@
+/* Google Fonts */
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "SF Pro Display", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+
+/*Scrool Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--main-color); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+/* Colors */
+:root {
+  --main-color: #570303;
+  --second-color: #000000;
+}
+section {
+
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+/* Home CSS */
+#home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Navbar CSS */
+nav {
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 100px;
+  background: transparent;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: 0.5s;
+  height: 6rem;
+}
+/* Logo CSS */
+.logose {
+  width: 8.5rem;
+  color: var(--second-color);
+  
+}
+ul {
+  display: flex;
+}
+ul li a {
+  padding: 10px 30px;
+  color: var(--second-color);
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+/*ul li a:hover {
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+}
+span{
+    color: var(--main-color);
+}
+*/
+
+.main-bg{
+  background-color: #ab696b;
+  overflow: hidden;
+  
+  height: 100vh;
+  position: relative;
+}
+.prev{
+  display: flex;
+  flex-direction: row;
+  width: 4rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.blue-bg{
+  
+  
+  
+  width: 96.525rem;
+  height: 130vh;
+  margin-top: -12rem;
+  margin-left: 5rem;
+  background-color: #001642b2;
+  border-radius: 25rem 0 0 25rem;
+ 
+}
+
+.top-part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+  } 
+  
+    
+    
+    .looking-for-a-job {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50rem;
+      height: 100vh;
+      background: rgba(135, 40, 44, 0.70);
+    }
+  
+  
+    .managing-a-workplace{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50rem;
+      height: 100vh;
+      
+      background:#332F4F;
+    }
+  
+    
+    .heading1 p{
+  
+      
+      
+      display: flex;
+      direction: row;
+      justify-content: center;
+      align-items: center;
+      color: #FFF;
+      text-align: center;
+      font-family: "Inter-LightItalic", Helvetica;
+      font-size: 3.5rem;  
+      font-weight: 100;
+      line-height: normal;
+      
+      
+    }
+  
+    .content-of-top-part {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-size:3em;
+    width: 30rem;
+    font-style: normal;
+    
+    line-height: normal;
+    gap:10px;
+    
+    }
+  
+    .BROWSE{
+      color: #FFF;
+      text-align: center;
+      font-family: "Inter-LightItalic", Helvetica;
+      font-size: 0.937rem;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      width: 10rem;
+      height: 42.417px;
+      flex-shrink: 0;
+      margin-top: 2rem;
+  
+      
+      background:transparent;
+      /*margin-left: 188px;
+      margin-top: 20px;*/
+      
+      border: white;
+      border-style: double;
+    
+    }
+    .content-of-right-part {
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: #FFF;
+        text-align: center;
+        font-family: "Inter-LightItalic", Helvetica;
+        font-size:2.5em;
+        width: 30rem;
+        font-style: normal;
+        
+        line-height: normal;
+        gap:10px;
+        
+        }
+    
+    .POSTJOB{
+      color: #FFF;
+      text-align: center;
+      font-family: "Inter-LightItalic", Helvetica;
+      font-size: 0.937rem;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      width: 10rem;
+      height: 42.417px;
+      flex-shrink: 0;
+      margin-top: 0.7rem;
+  
+      
+      background:transparent;
+      /*margin-left: 188px;
+      margin-top: 20px;*/
+      
+      border: white;
+      border-style: double;
+    
+    }
+    .button-for-top-part{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }

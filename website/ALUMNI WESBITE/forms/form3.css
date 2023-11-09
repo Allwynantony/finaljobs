@@ -1,0 +1,431 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "SF Pro Display", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  /* width: 100%; */
+}
+
+/*Scrool Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f6B0B0;; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover 
+  ::-webkit-scrollbar-thumb:hover {
+    background:#f6B0B0; 
+  }*/
+
+
+
+.main-bg{
+    background-color: #ab696b;
+    overflow: hidden;
+    
+    height: 100vh;
+    position: relative;
+}
+.prev{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.blue-bg{
+    
+    
+    
+    width: 96.525rem;
+    height: 130vh;
+    margin-top: -12rem;
+    margin-left: 5rem;
+    background-color: #001642b2;
+    border-radius: 25rem 0 0 25rem;
+   
+}
+.contents-blue{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  align-items: center;
+}
+.prvbtn{
+
+    background: transparent;
+    display: flex;
+}
+
+.leftside{
+
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 5rem;
+    margin-top:3rem ;
+    width: 37rem;
+    
+    
+    
+}
+.mainheading   {
+    display: flex;
+    flex-direction: column;
+  
+    color: #FFF;
+    margin-top: 5rem;
+    margin-left: 9rem;
+    text-align: center;
+    font-family: "Inter-LightItalic", Helvetica;    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.emailcontents{
+    display: flex;
+    flex-direction: row;
+}
+.emailheading{
+    border-radius: 64px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    width: 12rem;
+    height: 2.3rem;
+    flex-shrink: 0;
+    margin-top: 1rem;
+
+    color: #FFF;
+
+    text-align: center;
+    padding-top: 0.3rem;
+    font-family: "Inter-LightItalic", Helvetica;font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    background: #332F4F;
+}
+.emailadd{
+    border-radius: 64px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    width: 20rem;
+    height: 2.3rem;
+    flex-shrink: 0;
+    margin-top: 1rem;
+
+    color: #FFF;
+
+    text-align: center;
+    padding-top: 0.3rem;
+    font-family: "Inter-LightItalic", Helvetica;font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    background:transparent;
+    margin-left:3rem;
+}
+.emailadd input{
+    width: 18rem;
+    height: 1.8rem;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border: none;
+    
+}
+
+.heading-description{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+
+    color: #FFF;
+    
+    font-family: Inter;
+    font-size: 2em;
+    font-style: normal;
+    margin-top: 2rem;
+    font-weight: 700;
+    line-height: normal;
+    
+    
+}
+
+
+.qa{
+  
+    display: flex;
+    flex-direction: column;
+    
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 30rem;
+    margin-bottom: 2rem;
+    
+    
+
+    
+  }
+  
+  
+  
+  .scrollable-container
+  {
+    display: grid; 
+    width: 35rem;
+    height: 13rem;
+    position: relative;
+    grid-template-rows:2.0rem 2.0rem 2.0rem 2.0rem 2.0rem 2.0rem ;
+    grid-template-columns:2.0rem 2.0rem 2.0rem 2.0rem 2.0rem  2.0rem 2.0rem 2.0rem 2.0rem 2.0rem 2.0rem 2.0rem 2.0rem   ; 
+    grid-gap:0.3em 0.7em;
+    margin-top: 5%;
+    margin-left: 3%;
+
+    
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.40);;
+        
+    background-color: transparent;
+  
+    
+    border-radius: 2rem;
+    
+  }
+  
+  .Question-heading{
+      grid-row: 1/2;
+      grid-column: 1/8;
+      margin-top: 1rem; 
+      margin-left: 2.5rem;
+      font-size: 1.8rem;
+    align-self: center;
+    color: #FFF;
+    font-family: "Inter-LightItalic", Helvetica;  
+    
+  }
+  
+  
+  
+  .ideal-answer{
+  
+    grid-row: 5/6;
+    grid-column: 1/6;
+    font-size: 1.8rem;
+    margin-left: 0.2rem;
+    
+    align-self: center;
+    font-family: "Inter-LightItalic", Helvetica;  
+  }
+  .ANSWER{
+  
+    color: white;
+    text-align: center;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-size: 0.937rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 8rem;
+    height: 1.8rem;
+    flex-shrink: 0;
+    background-color:transparent;
+    border-radius: 0.6rem;
+    border-color: white;
+    margin-left: 2rem;
+  }
+  
+  .middle-part{
+      grid-column: 2/13;
+      grid-row: 2/5;
+    
+  }
+  .musthave{
+    grid-row: 5/6;
+    grid-column: 9/14;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-size: 0.937rem;
+    align-self: center;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    
+    color: white    ;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    user-select: none;  
+    
+    
+  }
+  
+  .text{
+    margin-left: 2.1rem;
+  }
+  .musthave input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: -3;
+    height: 1.25rem;
+    width: 1.25rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .musthave input:checked ~ .checkmark {
+    background-color: #666;
+    border-color: #666;
+  }
+  
+  .musthave input:checked ~ .checkmark:before {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 3px;
+    height: 6px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }    
+    
+
+  .add-questionbtn{
+    border-radius: 4rem;
+    background: #AB696B;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: #332F4F;
+    width: 8.75rem;
+    height: 2.75rem;
+    color: white;
+    margin-left: 2rem;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.588px;    
+    flex-shrink: 0;
+}
+
+
+.add-questionbtn:hover{
+    border-radius: 4rem;
+    background: white;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: #332F4F;
+    width: 8.75rem;
+    height: 2.75rem;
+    color:#AB696B ;
+    margin-left: 2rem;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.588px;    
+    flex-shrink: 0;
+}
+
+
+
+.rightside{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 4rem;
+    
+    
+}
+.pgno{
+    display: flex;
+    flex-direction: column;
+    color: #F6B0B0;
+    
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 35rem;
+    margin-top: 6rem;
+    
+    
+}
+.employer{
+    display: flex;
+    flex-direction: column;
+    
+    flex-shrink: 0;
+    color: #FFF;
+    margin-top: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    margin-left: 6rem;
+    margin-top: 9rem;
+    font-weight: 100;
+
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    flex-shrink: 0;
+    color: #FFF;
+    width: 30rem;
+    font-family: "Inter-ExtraLight", Helvetica;
+    text-align: right;
+    font-style: italic;
+    font-size: 3rem;
+
+    margin-top: 2   rem;
+    margin-left: 6rem;
+}
+
+.next-btn{
+    color: #AB696B;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1.5em;
+     font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 12rem;
+    height: 4rem;
+    flex-shrink: 0;
+    border-radius: 4rem;
+    border: 5px solid #AB696B;
+    margin-left: 25rem;
+    margin-top: 11rem;
+    background: #332F4F;  
+      
+  
+}
+
